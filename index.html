@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="bootstrap.min.css" />
+
+	<!-- törölni
+	<link rel="stylesheet" type="text/css" href="style.css">-->
+	<title>Webpack</title>
+</head>
+<body>
+	<h1>Nagy headline, H1</h1>
+	<div class="row row--height">
+		<div class="col-sm-12 col-md-6 col-lg-4 box box__1">
+			<div class="box__content">
+				<div class="enhancement enhancement--blue">kiemelés</div>
+				<div class="box__banner">
+					<img src="main.png">
+				</div>
+				<form class="box__1__form">
+					<div class="inputs">
+						<div class="col-md-6 col-xs-6 col-sm-6">
+							<label for="input1">Form 1</label>
+							<input type="text" id="input1">
+						</div>
+						<div class="col-md-6 col-xs-6 col-sm-6">
+							<label for="input1">Form 1</label>
+							<input type="text" id="input1">
+						</div>
+					</div>
+					<div class="radio_btns">
+						<label class="col-md-12 col-xs-12 col-sm-12 radio_title">Radio választás</label>
+						<div class="col-md-4 col-xs-12 col-sm-4">
+							<input type="radio" class="radio-btn" name="radio_btn" id="c-opt" />
+							<label for="c-opt" class="label">
+								<span class="text">Inaktív</span>
+							</label>
+						</div>
+						<div class="col-md-4 col-xs-12 col-sm-4">
+							<input type="radio" class="radio-btn" name="radio_btn" id="c-opt2" />
+							<label for="c-opt2" class="label">
+								<span class="text">Hover</span>
+							</label>
+						</div>
+						<div class="col-md-4 col-xs-12 col-sm-4">
+							<input type="radio" class="radio-btn" name="radio_btn" id="c-opt3" />
+							<label for="c-opt3" class="label">
+								<span class="text">Selected</span>
+							</label>
+						</div>
+					</div>
+					<div class="checkboxes">
+						<div class="col-md-12 col-xs-12 col-sm-12">
+							<label class="checkbox-container">Kikapcsolat checkbox
+								<input type="checkbox">
+								<span class="checkbox-container__checkrealbox"></span>
+							</label>
+						</div>
+						<div class="col-md-12 col-xs-12 col-sm-12">
+							<label class="checkbox-container">Hover checkbox
+								<input type="checkbox">
+								<span class="checkbox-container__checkrealbox"></span>
+							</label>
+						</div>
+						<div class="col-md-12 col-xs-12 col-sm-12">
+							<label class="checkbox-container">Bekapcsolt checkbox
+								<input type="checkbox">
+								<span class="checkbox-container__checkrealbox"></span>
+							</label>
+						</div>
+					</div>
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                    	<div class="switches">
+	                        <label class="switches__title">Picker</label>
+	                        <div class="switches__field">                                      
+	                            <input type="radio" id="switch__left" name="switch">
+	                            <label for="switch__left" class="switch switch__left">Inaktív</label>
+	                            <input type="radio" id="switch__right" name="switch" checked="">
+	                            <label for="switch__right" class="switch switch__right">Aktív</label>
+	                        </div>
+                    	</div>
+                    </div>
+				</form>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4 box box__2">
+			<div class="box__content">
+				<div class="enhancement enhancement--yellow">kiemelés</div>
+				<div class="box__banner">
+					<img src="main.png">
+				</div>
+				<center>
+					<h2>Kis alcím H2</h2>
+					<p class="box__body">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+						laboris nisi ut aliquip ex ea commodo consequat.
+					</p>
+				</center>
+				<div class="quote">
+					Lorem ipsum dolor sit amet, 
+					consectetur adipiscing elit, sed do 
+					eiusmod tempor.
+				</div>
+				<center>
+					<button class="button button--yellow">gomb</button>
+				</center>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4 row--last-col box box__3">
+			<div class="box__content">
+                <div class="close"></div>
+				<div class="box__banner">
+					<img src="main.png">
+				</div>
+				<div class="gradient"></div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./dist/js/bundle.js"></script>
+</body>
+</html>
