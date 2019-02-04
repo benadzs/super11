@@ -1,10 +1,9 @@
 # Super11 tesztmunka
 ---
 Nem kompatibilis böngészők:   
-⋅⋅*Internet Explorer   
-⋅⋅*Microsoft Edge   
-   
+*Internet Explorer   
+*Microsoft Edge   
 Tesztelt böngészők:   
-⋅⋅*Google Chrome   
-⋅⋅*Mozilla Firefox   
-⋅⋅*Opera   
+*Google Chrome   
+*Mozilla Firefox   
+*Opera   
