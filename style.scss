@@ -382,3 +382,8 @@ input[type="radio"] {
 		}
 	}
 }
+@media (max-width: 991px) {
+	.inputs__input2, .inputs__input1 {
+		margin: 0;
+	}
+}
