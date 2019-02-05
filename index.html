@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="bootstrap.min.css" />
-	<script type="text/javascript" src="./dist/js/bundle.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--<script type="text/javascript" src="./dist/js/bundle.js"></script>-->
 	<title>Super11</title>
 </head>
 <body>
@@ -17,57 +18,61 @@
 				</div>
 				<form class="box__1__form">
 					<div class="inputs">
-						<div class="col-md-6 col-xs-6 col-sm-6">
-							<label for="input1">Form 1</label>
-							<input type="text" id="input1">
+						<div class="inputs__input col-md-6 no-padding">
+							<div class="inputs__input1">
+								<label for="input2" class="inputs--label">Form 1</label>
+								<input type="text" id="input2">
+							</div>
 						</div>
-						<div class="col-md-6 col-xs-6 col-sm-6">
-							<label for="input1">Form 1</label>
-							<input type="text" id="input1">
+						<div class="col-md-6 no-padding"">
+							<div class="inputs__input2">
+								<label for="input1" class="inputs--label">Form 1</label>
+								<input type="text" id="input1">
+							</div>
 						</div>
 					</div>
 					<div class="radio_btns">
-						<label class="col-md-12 col-xs-12 col-sm-12 radio_title">Radio választás</label>
-						<div class="col-md-4 col-xs-12 col-sm-4">
-							<input type="radio" class="radio-btn" name="radio_btn" id="c-opt" />
-							<label for="c-opt" class="label">
+						<label class="col-md-12 col-xs-12 col-sm-12 radio_title no-padding">Radio választás</label>
+						<div class="radio-btn--1">
+							<input type="radio" class="radio-btn" name="radio_btn" id="radio_btn_1" />
+							<label for="radio_btn_1" class="label">
 								<span class="text">Inaktív</span>
 							</label>
 						</div>
-						<div class="col-md-4 col-xs-12 col-sm-4">
-							<input type="radio" class="radio-btn" name="radio_btn" id="c-opt2" />
-							<label for="c-opt2" class="label">
+						<div class="radio-btn--2">
+							<input type="radio" class="radio-btn" name="radio_btn" id="radio_btn_2" />
+							<label for="radio_btn_2" class="label">
 								<span class="text">Hover</span>
 							</label>
 						</div>
-						<div class="col-md-4 col-xs-12 col-sm-4">
-							<input type="radio" class="radio-btn" name="radio_btn" id="c-opt3" />
-							<label for="c-opt3" class="label">
+						<div class="radio-btn--3">
+							<input type="radio" class="radio-btn" name="radio_btn" id="radio_btn_3" />
+							<label for="radio_btn_3" class="label">
 								<span class="text">Selected</span>
 							</label>
 						</div>
 					</div>
 					<div class="checkboxes">
-						<div class="col-md-12 col-xs-12 col-sm-12">
+						<div class="col-md-12 col-xs-12 col-sm-12 no-padding">
 							<label class="checkbox-container">Kikapcsolat checkbox
 								<input type="checkbox">
 								<span class="checkbox-container__checkrealbox"></span>
 							</label>
 						</div>
-						<div class="col-md-12 col-xs-12 col-sm-12">
+						<div class="col-md-12 col-xs-12 col-sm-12 no-padding">
 							<label class="checkbox-container">Hover checkbox
 								<input type="checkbox">
 								<span class="checkbox-container__checkrealbox"></span>
 							</label>
 						</div>
-						<div class="col-md-12 col-xs-12 col-sm-12">
+						<div class="col-md-12 col-xs-12 col-sm-12 no-padding">
 							<label class="checkbox-container">Bekapcsolt checkbox
 								<input type="checkbox">
 								<span class="checkbox-container__checkrealbox"></span>
 							</label>
 						</div>
 					</div>
-                    <div class="col-md-12 col-xs-12 col-sm-12">
+                    <div class="col-md-12 col-xs-12 col-sm-12 no-padding">
                     	<div class="switches">
 	                        <label class="switches__title">Picker</label>
 	                        <div class="switches__field">                                      
